@@ -263,7 +263,7 @@ class MyStrategy:
 
 def main():
     feed = MDFeedFacade(
-        tickers=["TSLA", "MSFT"],
+        tickers=['NVDA', 'BBAI', 'INTC', 'GRAB', 'AAPL', 'PLTR', 'NOK', 'AMD', 'QBTS', 'APLD', 'HPE', 'AVGO', 'CRWV', 'SMCI', 'MU', 'ORCL', 'PATH', 'MSFT', 'IONQ', 'CSCO'],
         handler=MyStrategy(),
         poll_interval=10.0,
         interval="1d",
